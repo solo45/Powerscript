@@ -5,7 +5,7 @@ function Get-VaultCredential
 
 Displays Windows vault credential objects including cleartext web credentials.
 
-PowerSploit Function: Get-VaultCredential
+Powerscript Function: Get-VaultCredential
 Author: Matthew Graeber (@mattifestation)
 License: BSD 3-Clause
 Required Dependencies: None

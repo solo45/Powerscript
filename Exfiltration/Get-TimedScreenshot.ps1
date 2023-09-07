@@ -5,7 +5,7 @@ function Get-TimedScreenshot
 
 Takes screenshots at a regular interval and saves them to disk.
 
-PowerSploit Function: Get-TimedScreenshot
+Powerscript Function: Get-TimedScreenshot
 Author: Chris Campbell (@obscuresec)
 License: BSD 3-Clause
 Required Dependencies: None
@@ -34,7 +34,7 @@ PS C:\> Get-TimedScreenshot -Path c:\temp\ -Interval 30 -EndTime 14:00
 .LINK
 
 http://obscuresecurity.blogspot.com/2013/01/Get-TimedScreenshot.html
-https://github.com/mattifestation/PowerSploit/blob/master/Exfiltration/Get-TimedScreenshot.ps1
+https://github.com/mattifestation/Powerscript/blob/master/Exfiltration/Get-TimedScreenshot.ps1
 #>
 
     [CmdletBinding()] Param(

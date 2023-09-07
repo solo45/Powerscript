@@ -44,7 +44,7 @@ for tokens which were created with desirable logon tokens (and only displays the
 In a nutshell, instead of worrying about "delegation vs impersonation" tokens, you should worry about NetworkLogon (bad) vs Non-NetworkLogon (good).
 
 
-PowerSploit Function: Invoke-TokenManipulation
+Powerscript Function: Invoke-TokenManipulation
 Author: Joe Bialek, Twitter: @JosephBialek
 License: BSD 3-Clause
 Required Dependencies: None

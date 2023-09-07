@@ -1,6 +1,6 @@
 ## This project is no longer supported
 
-### PowerSploit is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment. PowerSploit is comprised of the following modules and scripts:
+### Powerscript is a collection of Microsoft PowerShell modules that can be used to aid penetration testers during all phases of an assessment. Powerscript is comprised of the following modules and scripts:
 
 ## CodeExecution
 
@@ -189,24 +189,24 @@ PowerView is series of functions that performs network and Windows domain enumer
 
 ## License
 
-The PowerSploit project and all individual scripts are under the [BSD 3-Clause license](https://raw.github.com/mattifestation/PowerSploit/master/LICENSE) unless explicitly noted otherwise.
+The Powerscript project and all individual scripts are under the [BSD 3-Clause license](https://raw.github.com/mattifestation/Powerscript/master/LICENSE) unless explicitly noted otherwise.
 
 ## Usage
 
 Refer to the comment-based help in each individual script for detailed usage information.
 
-To install this module, drop the entire PowerSploit folder into one of your module directories. The default PowerShell module paths are listed in the $Env:PSModulePath environment variable.
+To install this module, drop the entire Powerscript folder into one of your module directories. The default PowerShell module paths are listed in the $Env:PSModulePath environment variable.
 
 The default per-user module path is: "$Env:HomeDrive$Env:HOMEPATH\Documents\WindowsPowerShell\Modules"
 The default computer-level module path is: "$Env:windir\System32\WindowsPowerShell\v1.0\Modules"
 
-To use the module, type `Import-Module PowerSploit`
+To use the module, type `Import-Module Powerscript`
 
-To see the commands imported, type `Get-Command -Module PowerSploit`
+To see the commands imported, type `Get-Command -Module Powerscript`
 
-If you're running PowerShell v3 and you want to remove the annoying 'Do you really want to run scripts downloaded from the Internet' warning, once you've placed PowerSploit into your module path, run the following one-liner:
+If you're running PowerShell v3 and you want to remove the annoying 'Do you really want to run scripts downloaded from the Internet' warning, once you've placed Powerscript into your module path, run the following one-liner:
 `$Env:PSModulePath.Split(';') |
- % { if ( Test-Path (Join-Path $_ PowerSploit) )
+ % { if ( Test-Path (Join-Path $_ Powerscript) )
  {Get-ChildItem $_ -Recurse | Unblock-File} }`
 
 For help on each individual command, Get-Help is your friend.
@@ -215,7 +215,7 @@ Note: The tools contained within this module were all designed such that they ca
 
 ## Contribution Rules
 
-We need contributions! If you have a great idea for PowerSploit, we'd love to add it. New additions will require the following:
+We need contributions! If you have a great idea for Powerscript, we'd love to add it. New additions will require the following:
 
 * The script must adhere to the style guide. Any exceptions to the guide line would need an explicit, valid reason.
 * The module manifest needs to be updated to reflect the new function being added.
@@ -224,7 +224,7 @@ We need contributions! If you have a great idea for PowerSploit, we'd love to ad
 
 ## Script Style Guide
 
-**For all contributors and future contributors to PowerSploit, I ask that you follow this style guide when writing your scripts/modules.**
+**For all contributors and future contributors to Powerscript, I ask that you follow this style guide when writing your scripts/modules.**
 
 * Avoid Write-Host **at all costs**. PowerShell functions/cmdlets are not command-line utilities! Pull requests containing code that uses Write-Host will not be considered. You should output custom objects instead. For more information on creating custom objects, read these articles:
    * <http://blogs.technet.com/b/heyscriptingguy/archive/2011/05/19/create-custom-objects-in-your-powershell-script.aspx>

@@ -5,7 +5,7 @@ function Invoke-ReverseDnsLookup
 
 Perform a reverse DNS lookup scan on a range of IP addresses.
 
-PowerSploit Function: Invoke-ReverseDnsLookup  
+Powerscript Function: Invoke-ReverseDnsLookup  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  
@@ -72,7 +72,7 @@ Returns the hostnames of the IP addresses piped from another source.
 .LINK
 
 http://www.exploit-monday.com
-https://github.com/mattifestation/PowerSploit
+https://github.com/mattifestation/Powerscript
 #>
 
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]

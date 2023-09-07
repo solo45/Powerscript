@@ -4,19 +4,19 @@
 ModuleToProcess = 'Privesc.psm1'
 
 # Version number of this module.
-ModuleVersion = '3.0.0.0'
+ModuleVersion = '1.0.0.0'
 
 # ID used to uniquely identify this module
-GUID = 'efb2a78f-a069-4bfd-91c2-7c7c0c225f56'
+GUID = '7da40a3d-731c-48be-88f5-1c8b437acfdd'
 
 # Author of this module
-Author = 'Will Schroeder (@harmj0y)'
+Author = 'Original Author Will Schroeder (@harmj0y)'
 
 # Copyright statement for this module
 Copyright = 'BSD 3-Clause'
 
 # Description of the functionality provided by this module
-Description = 'PowerSploit Privesc Module'
+Description = 'Powerscript Privesc Module'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '2.0'

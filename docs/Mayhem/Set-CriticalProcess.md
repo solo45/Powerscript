@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Causes your machine to blue screen upon exiting PowerShell.
 
-PowerSploit Function: Set-CriticalProcess  
+Powerscript Function: Set-CriticalProcess  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

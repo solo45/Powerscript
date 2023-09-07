@@ -5,7 +5,7 @@ function New-ElevatedPersistenceOption
 
 Configure elevated persistence options for the Add-Persistence function.
 
-PowerSploit Function: New-ElevatedPersistenceOption  
+Powerscript Function: New-ElevatedPersistenceOption  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  
@@ -181,7 +181,7 @@ http://www.exploit-monday.com
     }
 
     $PersistenceOptions = New-Object -TypeName PSObject -Property $PersistenceOptionsTable
-    $PersistenceOptions.PSObject.TypeNames[0] = 'PowerSploit.Persistence.ElevatedPersistenceOption'
+    $PersistenceOptions.PSObject.TypeNames[0] = 'Powerscript.Persistence.ElevatedPersistenceOption'
 
     Write-Output $PersistenceOptions
 }
@@ -193,7 +193,7 @@ function New-UserPersistenceOption
 
 Configure user-level persistence options for the Add-Persistence function.
 
-PowerSploit Function: New-UserPersistenceOption  
+Powerscript Function: New-UserPersistenceOption  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  
@@ -327,7 +327,7 @@ http://www.exploit-monday.com
     }
 
     $PersistenceOptions = New-Object -TypeName PSObject -Property $PersistenceOptionsTable
-    $PersistenceOptions.PSObject.TypeNames[0] = 'PowerSploit.Persistence.UserPersistenceOption'
+    $PersistenceOptions.PSObject.TypeNames[0] = 'Powerscript.Persistence.UserPersistenceOption'
 
     Write-Output $PersistenceOptions
 }
@@ -339,7 +339,7 @@ function Add-Persistence
 
 Add persistence capabilities to a script.
 
-PowerSploit Function: Add-Persistence  
+Powerscript Function: Add-Persistence  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: New-ElevatedPersistenceOption, New-UserPersistenceOption  
@@ -473,12 +473,12 @@ http://www.exploit-monday.com
 
 #region Validate arguments
 
-    if ($ElevatedPersistenceOption.PSObject.TypeNames[0] -ne 'PowerSploit.Persistence.ElevatedPersistenceOption')
+    if ($ElevatedPersistenceOption.PSObject.TypeNames[0] -ne 'Powerscript.Persistence.ElevatedPersistenceOption')
     {
         throw 'You provided invalid elevated persistence options.'
     }
 
-    if ($UserPersistenceOption.PSObject.TypeNames[0] -ne 'PowerSploit.Persistence.UserPersistenceOption')
+    if ($UserPersistenceOption.PSObject.TypeNames[0] -ne 'Powerscript.Persistence.UserPersistenceOption')
     {
         throw 'You provided invalid user-level persistence options.'
     }

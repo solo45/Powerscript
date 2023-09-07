@@ -6,7 +6,7 @@ function Set-MasterBootRecord
 Proof of concept code that overwrites the master boot record with the
 message of your choice.
 
-PowerSploit Function: Set-MasterBootRecord  
+Powerscript Function: Set-MasterBootRecord  
 Author: Matthew Graeber (@mattifestation) and Chris Campbell (@obscuresec)  
 License: BSD 3-Clause  
 Required Dependencies: None  
@@ -272,7 +272,7 @@ function Set-CriticalProcess
 
 Causes your machine to blue screen upon exiting PowerShell.
 
-PowerSploit Function: Set-CriticalProcess  
+Powerscript Function: Set-CriticalProcess  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

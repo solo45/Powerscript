@@ -7,9 +7,9 @@ License: BSD 3-Clause
 Required Dependencies: None
 Optional Dependencies: None
 
-All credit for PowerSploit functions belongs to the original author and project contributors. Thanks for the awesomeness! See here for more info: 
+All credit for Powerscript functions belongs to the original author and project contributors. Thanks for the awesomeness! See here for more info: 
 http://www.exploit-monday.com/2012/05/accessing-native-windows-api-in.html
-https://github.com/PowerShellMafia/PowerSploit
+https://github.com/PowerShellMafia/Powerscript
 
 Thanks to Ed Wilson (Scripting Guy) for the one liner to generate random chars. https://blogs.technet.microsoft.com/heyscriptingguy/2015/11/05/generate-random-letters-with-powershell/
 
@@ -47,7 +47,7 @@ Records 10 seconds of audio to the path C:\windows\temp\secret.wav using WinMM a
 
 	)
 
-	#Get-DelegateType from PowerSploit
+	#Get-DelegateType from Powerscript
 	function Local:Get-DelegateType
 	{
 		Param
@@ -76,7 +76,7 @@ Records 10 seconds of audio to the path C:\windows\temp\secret.wav using WinMM a
 		Write-Output $TypeBuilder.CreateType()
 	}
 
-	#Get-ProcAddress from PowerSploit
+	#Get-ProcAddress from Powerscript
 	function local:Get-ProcAddress
 	{
 		Param

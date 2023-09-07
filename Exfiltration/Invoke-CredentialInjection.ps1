@@ -8,7 +8,7 @@ function Invoke-CredentialInjection
     winlogon.exe which calls LsaLogonUser to create a logon from within winlogon.exe (which is where it is called from when a user logs in using RDP or 
     logs on locally). The injected DLL then impersonates the new logon token with its current thread so that it can be kidnapped using Invoke-TokenManipulation.
 
-    PowerSploit Function: Invoke-CredentialInjection
+    Powerscript Function: Invoke-CredentialInjection
     Author: Joe Bialek, Twitter: @JosephBialek
     License: BSD 3-Clause
     Required Dependencies: None
@@ -155,7 +155,7 @@ function Invoke-CredentialInjection
     bypass A/V. Another advantage is you won't be making web requests. The script can also load files from SQL Server and be used as a SQL Server backdoor. Please see the Casaba
     blog linked below (thanks to whitey).
 
-    PowerSploit Function: Invoke-ReflectivePEInjection
+    Powerscript Function: Invoke-ReflectivePEInjection
     Author: Joe Bialek, Twitter: @JosephBialek
     License: BSD 3-Clause
     Required Dependencies: None

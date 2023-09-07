@@ -4,13 +4,13 @@
 ModuleToProcess = 'CodeExecution.psm1'
 
 # Version number of this module.
-ModuleVersion = '3.0.0.0'
+ModuleVersion = '1.0.0.0'
 
 # ID used to uniquely identify this module
-GUID = 'a8a6780b-e694-4aa4-b28d-646afa66733c'
+GUID = '4b5096a4-62a5-4a48-86fd-5e20494630ba'
 
 # Author of this module
-Author = 'Matthew Graeber'
+Author = 'Original Author Matthew Graeber'
 
 # Company or vendor of this module
 CompanyName = ''
@@ -19,7 +19,7 @@ CompanyName = ''
 Copyright = 'BSD 3-Clause'
 
 # Description of the functionality provided by this module
-Description = 'PowerSploit Code Execution Module'
+Description = 'Powerscript Code Execution Module'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '2.0'

@@ -5,7 +5,7 @@ function Out-EncodedCommand
 
 Compresses, Base-64 encodes, and generates command-line output for a PowerShell payload script.
 
-PowerSploit Function: Out-EncodedCommand  
+Powerscript Function: Out-EncodedCommand  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

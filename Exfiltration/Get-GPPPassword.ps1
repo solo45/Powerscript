@@ -4,7 +4,7 @@ function Get-GPPPassword {
 
 Retrieves the plaintext password and other information for accounts pushed through Group Policy Preferences.
 
-PowerSploit Function: Get-GPPPassword  
+Powerscript Function: Get-GPPPassword  
 Author: Chris Campbell (@obscuresec)  
 License: BSD 3-Clause  
 Required Dependencies: None  
@@ -82,7 +82,7 @@ Recycling*3ftw!
 .LINK
 
 http://www.obscuresecurity.blogspot.com/2012/05/gpp-password-retrieval-with-powershell.html
-https://github.com/mattifestation/PowerSploit/blob/master/Recon/Get-GPPPassword.ps1
+https://github.com/mattifestation/Powerscript/blob/master/Recon/Get-GPPPassword.ps1
 http://esec-pentest.sogeti.com/exploiting-windows-2008-group-policy-preferences
 http://rewtdance.blogspot.com/2012/06/exploiting-windows-2008-group-policy.html
 #>

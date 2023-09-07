@@ -5,7 +5,7 @@ function Get-VolumeShadowCopy
 
     Lists the device paths of all local volume shadow copies.
 
-    PowerSploit Function: Get-VolumeShadowCopy
+    Powerscript Function: Get-VolumeShadowCopy
     Author: Matthew Graeber (@mattifestation)
     License: BSD 3-Clause
     Required Dependencies: None
@@ -29,7 +29,7 @@ function New-VolumeShadowCopy
 
     Creates a new volume shadow copy.
 
-    PowerSploit Function: New-VolumeShadowCopy
+    Powerscript Function: New-VolumeShadowCopy
     Author: Jared Atkinson (@jaredcatkinson)
     License: BSD 3-Clause
     Required Dependencies: None
@@ -114,7 +114,7 @@ function Remove-VolumeShadowCopy
 
     Deletes a volume shadow copy.
 
-    PowerSploit Function: Remove-VolumeShadowCopy
+    Powerscript Function: Remove-VolumeShadowCopy
     Author: Jared Atkinson (@jaredcatkinson)
     License: BSD 3-Clause
     Required Dependencies: None
@@ -130,7 +130,7 @@ function Remove-VolumeShadowCopy
 
 .PARAMETER DevicePath
 
-    Specifies the volume shadow copy 'DeviceObject' path. This path can be retrieved with the Get-VolumeShadowCopy PowerSploit function or with the Win32_ShadowCopy object.
+    Specifies the volume shadow copy 'DeviceObject' path. This path can be retrieved with the Get-VolumeShadowCopy Powerscript function or with the Win32_ShadowCopy object.
 
 .EXAMPLE
 
@@ -172,7 +172,7 @@ function Mount-VolumeShadowCopy
 
     Mounts a volume shadow copy.
 
-    PowerSploit Function: Mount-VolumeShadowCopy
+    Powerscript Function: Mount-VolumeShadowCopy
     Author: Matthew Graeber (@mattifestation)
     License: BSD 3-Clause
     Required Dependencies: None
@@ -188,7 +188,7 @@ function Mount-VolumeShadowCopy
 
 .PARAMETER DevicePath
 
-    Specifies the volume shadow copy 'DeviceObject' path. This path can be retrieved with the Get-VolumeShadowCopy PowerSploit function or with the Win32_ShadowCopy object.
+    Specifies the volume shadow copy 'DeviceObject' path. This path can be retrieved with the Get-VolumeShadowCopy Powerscript function or with the Win32_ShadowCopy object.
 
 .EXAMPLE
 

@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Configure user-level persistence options for the Add-Persistence function.
 
-PowerSploit Function: New-UserPersistenceOption  
+Powerscript Function: New-UserPersistenceOption  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

@@ -4357,7 +4357,7 @@ File      : C:\ProgramData\Microsoft\Group Policy\History\{32C4C89F-7
 .LINK
 
 http://www.obscuresecurity.blogspot.com/2012/05/gpp-password-retrieval-with-powershell.html
-https://github.com/mattifestation/PowerSploit/blob/master/Recon/Get-GPPPassword.ps1
+https://github.com/mattifestation/Powerscript/blob/master/Recon/Get-GPPPassword.ps1
 https://github.com/rapid7/metasploit-framework/blob/master/modules/post/windows/gather/credentials/gpp.rb
 http://esec-pentest.sogeti.com/exploiting-windows-2008-group-policy-preferences
 http://rewtdance.blogspot.com/2012/06/exploiting-windows-2008-group-policy.html

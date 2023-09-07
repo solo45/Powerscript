@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Encrypts text files/scripts.
 
-PowerSploit Function: Out-EncryptedScript  
+Powerscript Function: Out-EncryptedScript  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

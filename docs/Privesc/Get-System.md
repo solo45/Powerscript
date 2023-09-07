@@ -7,7 +7,7 @@ a service, 'Token' duplications a SYSTEM token but needs SeDebugPrivilege.
 NOTE: if running PowerShell 2.0, start powershell.exe with '-STA' to ensure
 token duplication works correctly.
 
-PowerSploit Function: Get-System
+Powerscript Function: Get-System
 Author: @harmj0y, @mattifestation
 License: BSD 3-Clause
 Required Dependencies: None

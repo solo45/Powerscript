@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Locate tiny AV signatures.
 
-PowerSploit Function: Find-AVSignature  
+Powerscript Function: Find-AVSignature  
 Authors: Chris Campbell (@obscuresec) & Matt Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  
@@ -149,10 +149,10 @@ Several of the versions of "DSplit.exe" available on the internet contain malwar
 ## RELATED LINKS
 
 [http://obscuresecurity.blogspot.com/2012/12/finding-simple-av-signatures-with.html
-https://github.com/mattifestation/PowerSploit
+https://github.com/mattifestation/Powerscript
 http://www.exploit-monday.com/
 http://heapoverflow.com/f0rums/project.php?issueid=34&filter=changes&page=2](http://obscuresecurity.blogspot.com/2012/12/finding-simple-av-signatures-with.html
-https://github.com/mattifestation/PowerSploit
+https://github.com/mattifestation/Powerscript
 http://www.exploit-monday.com/
 http://heapoverflow.com/f0rums/project.php?issueid=34&filter=changes&page=2)
 

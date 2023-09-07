@@ -4,7 +4,7 @@ function Get-Keystrokes {
 
     Logs keys pressed, time and the active window.
     
-    PowerSploit Function: Get-Keystrokes
+    Powerscript Function: Get-Keystrokes
     Original Authors: Chris Campbell (@obscuresec) and Matthew Graeber (@mattifestation)
     Revised By: Jesse Davis (@secabstraction)
     License: BSD 3-Clause

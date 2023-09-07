@@ -4,7 +4,7 @@
 Proof of concept code that overwrites the master boot record with the
 message of your choice.
 
-PowerSploit Function: Set-MasterBootRecord  
+Powerscript Function: Set-MasterBootRecord  
 Author: Matthew Graeber (@mattifestation) and Chris Campbell (@obscuresec)  
 License: BSD 3-Clause  
 Required Dependencies: None  

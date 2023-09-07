@@ -5,7 +5,7 @@ function Out-Minidump
 
     Generates a full-memory minidump of a process.
 
-    PowerSploit Function: Out-Minidump
+    Powerscript Function: Out-Minidump
     Author: Matthew Graeber (@mattifestation)
     License: BSD 3-Clause
     Required Dependencies: None

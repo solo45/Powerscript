@@ -5,7 +5,7 @@ function Get-GPPAutologon
 
     Retrieves password from Autologon entries that are pushed through Group Policy Registry Preferences.
 
-    PowerSploit Function: Get-GPPAutologon
+    Powerscript Function: Get-GPPAutologon
     Author: Oddvar Moe (@oddvarmoe)
     Based on Get-GPPPassword by Chris Campbell (@obscuresec) - Thanks for your awesome work!
     License: BSD 3-Clause

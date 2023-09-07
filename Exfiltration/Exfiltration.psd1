@@ -4,19 +4,19 @@
 ModuleToProcess = 'Exfiltration.psm1'
 
 # Version number of this module.
-ModuleVersion = '3.0.0.0'
+ModuleVersion = '1.0.0.0'
 
 # ID used to uniquely identify this module
-GUID = '75dafa99-1402-4e29-b5d4-6c87da2b323a'
+GUID = '02373c76-f078-447e-8e9c-dfd32bcf6c5f'
 
 # Author of this module
-Author = 'Matthew Graeber'
+Author = 'Original Author Matthew Graeber'
 
 # Copyright statement for this module
 Copyright = 'BSD 3-Clause'
 
 # Description of the functionality provided by this module
-Description = 'PowerSploit Exfiltration Module'
+Description = 'Powerscript Exfiltration Module'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '2.0'

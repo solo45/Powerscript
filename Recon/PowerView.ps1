@@ -2,7 +2,7 @@
 
 <#
 
-PowerSploit File: PowerView.ps1
+Powerscript File: PowerView.ps1
 Author: Will Schroeder (@harmj0y)
 License: BSD 3-Clause
 Required Dependencies: None

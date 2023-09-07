@@ -1,5 +1,5 @@
-site_name: PowerSploit
-repo_url: https://github.com/PowerShellMafia/PowerSploit/
+site_name: Powerscript
+repo_url: https://github.com/PowerShellMafia/Powerscript/
 site_favicon: favicon.ico
 pages:
 - Home: 'index.md'

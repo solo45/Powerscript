@@ -5,7 +5,7 @@ function Invoke-Portscan
 
 Simple portscan module
 
-PowerSploit Function: Invoke-Portscan  
+Powerscript Function: Invoke-Portscan  
 Author: Rich Lundeen (http://webstersProdigy.net)  
 License: BSD 3-Clause  
 Required Dependencies: None  

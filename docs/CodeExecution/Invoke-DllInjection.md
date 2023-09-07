@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Injects a Dll into the process ID of your choosing.
 
-PowerSploit Function: Invoke-DllInjection  
+Powerscript Function: Invoke-DllInjection  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Strips comments and extra whitespace from a script.
 
-PowerSploit Function: Remove-Comment  
+Powerscript Function: Remove-Comment  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

@@ -4,19 +4,19 @@
 ModuleToProcess = 'AntivirusBypass.psm1'
 
 # Version number of this module.
-ModuleVersion = '3.0.0.0'
+ModuleVersion = '1.0.0.0'
 
 # ID used to uniquely identify this module
-GUID = '7cf9de61-2bfc-41b4-a397-9d7cf3a8e66b'
+GUID = 'fb5ba434-5d90-4545-8363-859de1c8ef5a'
 
 # Author of this module
-Author = 'Matthew Graeber'
+Author = 'Original Author Matthew Graeber'
 
 # Copyright statement for this module
 Copyright = 'BSD 3-Clause'
 
 # Description of the functionality provided by this module
-Description = 'PowerSploit Antivirus Avoidance/Bypass Module'
+Description = 'Powerscript Antivirus Avoidance/Bypass Module'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '2.0'

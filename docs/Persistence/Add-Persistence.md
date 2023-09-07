@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Add persistence capabilities to a script.
 
-PowerSploit Function: Add-Persistence  
+Powerscript Function: Add-Persistence  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: New-ElevatedPersistenceOption, New-UserPersistenceOption  

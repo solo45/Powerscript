@@ -5,7 +5,7 @@ function Get-HttpStatus
 
 Returns the HTTP Status Codes and full URL for specified paths.
 
-PowerSploit Function: Get-HttpStatus  
+Powerscript Function: Get-HttpStatus  
 Author: Chris Campbell (@obscuresec)  
 License: BSD 3-Clause  
 Required Dependencies: None  

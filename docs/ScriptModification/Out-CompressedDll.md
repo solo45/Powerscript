@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Compresses, Base-64 encodes, and outputs generated code to load a managed dll in memory.
 
-PowerSploit Function: Out-CompressedDll  
+Powerscript Function: Out-CompressedDll  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  

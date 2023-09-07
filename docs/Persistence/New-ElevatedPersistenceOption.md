@@ -3,7 +3,7 @@
 ## SYNOPSIS
 Configure elevated persistence options for the Add-Persistence function.
 
-PowerSploit Function: New-ElevatedPersistenceOption  
+Powerscript Function: New-ElevatedPersistenceOption  
 Author: Matthew Graeber (@mattifestation)  
 License: BSD 3-Clause  
 Required Dependencies: None  
