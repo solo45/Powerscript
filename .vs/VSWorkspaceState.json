@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "\\CodeExecution",
+    "\\docs",
+    "\\docs\\AntivirusBypass",
+    "\\Persistence",
+    "\\Privesc"
   ],
-  "SelectedNode": "\\C:\\Users\\solo\\Documents\\Projects\\Powerscript",
   "PreviewInSolutionExplorer": false
 }

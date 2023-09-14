@@ -29,5 +29,5 @@ FunctionsToExport = '*'
 
 # List of all files packaged with this module
 FileList = 'CodeExecution.psm1', 'CodeExecution.psd1', 'Invoke-Shellcode.ps1', 'Invoke-DllInjection.ps1', 
-               'Invoke-ReflectivePEInjection.ps1', 'Invoke-WmiCommand.ps1', 'Usage.md'
+               'Invoke-ReflectivePEInjection.ps1', 'wmicom.ps1', 'Usage.md'
 }
