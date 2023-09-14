@@ -25,6 +25,6 @@ PowerShellVersion = '2.0'
 FunctionsToExport = '*'
 
 # List of all files packaged with this module
-FileList = 'AntivirusBypass.psm1', 'AntivirusBypass.psd1', 'Find-AVSignature.ps1', 'Usage.md'
+FileList = 'AntivirusBypass.psm1', 'AntivirusBypass.psd1', 'Find-AVSignature.ps1', 'favsig.ps1', 'Usage.md'
 
 }
