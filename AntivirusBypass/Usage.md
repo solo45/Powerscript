@@ -3,9 +3,9 @@ To install this module, drop the entire AntivirusBypass folder into one of your 
 The default per-user module path is: "$Env:HomeDrive$Env:HOMEPATH\Documents\WindowsPowerShell\Modules"
 The default computer-level module path is: "$Env:windir\System32\WindowsPowerShell\v1.0\Modules"
 
-To use the module, type `Import-Module AntivirusBypass`
+To use the module, type `Import-Module AVB`
 
-To see the commands imported, type `Get-Command -Module AntivirusBypass`
+To see the commands imported, type `Get-Command -Module AVB`
 
 For help on each individual command, Get-Help is your friend.
 
